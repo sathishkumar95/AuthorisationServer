@@ -1,0 +1,10 @@
+server:
+  port: 8892
+
+spring:
+  application:
+    name: AS
+  data:
+    mongodb:
+      database: test
+      host: localhost
