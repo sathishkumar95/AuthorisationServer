@@ -1,8 +1,12 @@
 com\stackz\Application.class
-com\stackz\config\SecurityConfig.class
-com\stackz\repository\UserRepository.class
-com\stackz\config\AuthorizationServerConfig.class
 com\stackz\model\User.class
+com\stackz\config\CustomTokenEnhancer.class
 com\stackz\service\impl\UserServiceImpl.class
 com\stackz\service\UserService.class
 com\stackz\controller\BasicController.class
+com\stackz\model\Role.class
+com\stackz\config\SecurityConfig.class
+com\stackz\repository\UserRepository.class
+com\stackz\repository\RoleRepository.class
+com\stackz\config\AuthorizationServerConfig.class
+com\stackz\model\UserDao.class
